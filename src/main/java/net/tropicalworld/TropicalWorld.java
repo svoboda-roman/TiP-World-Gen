@@ -15,7 +15,7 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod(TropicalWorld.MODID)
 public class TropicalWorld {
-    public static final String MODID = "tip_worldgen";
+    public static final String MODID = "tropicalworld";
 
     public TropicalWorld(FMLJavaModLoadingContext context) {
         IEventBus modEventBus = context.getModEventBus();
