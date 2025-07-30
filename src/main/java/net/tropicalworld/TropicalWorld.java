@@ -1,4 +1,4 @@
-package net.tip.worldgen;
+package net.tropicalworld;
 
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -13,11 +13,11 @@ import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 
 // The value here should match an entry in the META-INF/mods.toml file
-@Mod(WorldGen.MODID)
-public class WorldGen {
+@Mod(TropicalWorld.MODID)
+public class TropicalWorld {
     public static final String MODID = "tip_worldgen";
 
-    public WorldGen(FMLJavaModLoadingContext context) {
+    public TropicalWorld(FMLJavaModLoadingContext context) {
         IEventBus modEventBus = context.getModEventBus();
 
         // Register the commonSetup method for modloading
